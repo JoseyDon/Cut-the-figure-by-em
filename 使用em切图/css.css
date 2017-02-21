@@ -1,0 +1,480 @@
+html{font-size: 100%;}
+body{font-size: 1em;min-width: 100px;background: #fff;}
+body,ul,ol,p,h1,h2,h3,h4,h5,dl,dd,form,input{
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+}
+li{list-style: none;}
+img{border: none;}
+a {text-decoration: none;}
+
+.center-box{
+	width:71.25em;
+	margin: 0 auto;
+	;
+}
+.nav{
+min-width: 100px;
+height: 52.5em;
+}
+.top{height: 4.5em;width: 1140px;
+}
+.search
+{
+	float: right;
+	display: inline-block;
+	margin: 1.25em;
+	line-height: 1.25em;
+	border:1px solid #bbb;
+	border-radius:0.313em/0.313em;
+	-moz-border-radius: 0.313em/0.313em;
+	-webkit-border-radius: 0.313em/0.313em;
+}
+.language
+{
+	float: right;
+	display:inline-block;
+	overflow: hidden;
+	background: url(images/top-row.png)no-repeat;
+	background-position:center right;
+	font-size: 0.875em;
+	line-height: 6em;
+}
+.top p
+{
+	float: right;
+	display: inline-block;
+	font-size: 0.875em;/*14px*/
+	background: url(images/top-ico.png)no-repeat;
+	padding-left: 1.667em;
+	line-height: 6em;
+	color: #626262;
+}
+.language select
+{
+	background: transparent;
+	-webkit-appearance: none; /*for chrome*/
+	border:none;
+	outline: none;
+	width: 5.75em;
+	color: #323232;
+
+}
+.language label
+{
+	background: url(images/top-ico.png)no-repeat 0 -105px;
+	padding: 0.417em 1.25em 0.83em 0.83em;
+}
+input[name="search1"]
+{
+	font-size: 0.875em;
+	width: 10.7em;
+	outline: none;
+	color: #dedede;
+	border:none;
+	position: relative;
+    display: inline-block;
+    top: -7px;
+}
+input[name="search2"]
+{
+	background: url(images/top-ico.png)no-repeat 0 -75px;
+	width: 22px;
+	height: 30px;
+	border:none;
+	outline: none;
+}
+.left
+{
+	height: 3.125em;
+	background: #f8b551;
+	width: 100%;
+	float: left;
+}
+.right
+{
+	height: 3.125em;
+	background: #00829c;
+	float: right;
+	width: 74%;
+
+}
+.right a
+{
+	display: inline-block;
+	float: left;
+	font-size: 16px;
+	line-height: 3.125em;
+	height: 3.125em;
+	border-left: 0.0625em solid #009ab9;
+	border-right: 0.0625em solid #006478;
+	padding: 0 0.94em 0 0.94em;
+	color: #fff;
+}
+.the-last a
+{border-right: none;}
+.the-first a
+{padding-left: 5.5em;}
+.right a:hover
+{
+	background: #f8b551;
+	color: #00829c;
+}
+.tittle
+{
+	width: 200px;
+	height: 120px;
+	position: absolute;
+	top: 11px;
+	left: 390px;
+}
+.photo img
+{display: block;margin: 0 auto;
+	width: 118.9em;
+	width: 100%;
+height:40.625em;
+background: #f8b551;
+padding-bottom: 0.75em;
+
+}
+#head{
+	    position: absolute;
+    top:32.545em;left: 18.18em;
+    font-size: 1.375em;
+    color: #fff;
+}
+#head p
+{width: 12.636em;padding: 1.136em 2.272em;}
+.contents-1
+{
+	border-bottom: 5.727em solid #017685;
+    border-left: 1.181em solid transparent;
+    border-right: none;
+    height: 0;
+    width: 16.727em;
+    float: left;
+    margin-right: 0.363em;
+}
+.contents-2
+{
+	border:none;
+	background: #005f6b;
+    height: 5.727em;
+    width: 16.727em;
+    float: left;
+    margin-right: 0.363em;
+}
+.contents-3
+{
+    border-top: 5.727em solid #024952;
+    border-right: 1.181em solid transparent;
+    border-left: none;
+    height: 0;
+    width: 16.727em;
+    float: left;
+}
+.contents-3-p
+{
+	position: absolute;
+	left: 35.909em;
+}
+#experience
+{
+height: 26.75em;
+}
+.left-photo img
+{
+	padding: 1.125em;
+	border: 0.0625em solid #cecece;
+	margin:4.125em 2.5em 4.125em 1.25em;
+	float: left;
+}
+.right-context
+{float: left;padding-top: 4.125em;width: 38.125em;}
+.right-context h2
+{font-size: 1.5em;color: #00829c;padding: 0.667em 0 0.5em 0;}
+.right-context p
+{color: #333;line-height: 1.875em;}
+.right-context ul
+{padding-top: 4.5em;}
+.right-context a
+{
+	float: left;
+	display: inline-block;
+	width: 3.5625em;
+	margin-right: 1.5em;
+}
+.one a{height: 2.75em;background: url(images/ohter-company.jpg)no-repeat;}
+.two a{height: 3.125em;background: url(images/ohter-company.jpg)no-repeat 0 -44px;}
+.three a{height: 3em;background: url(images/ohter-company.jpg)no-repeat 0 -94px;}
+.four a{height: 3.25em;background: url(images/ohter-company.jpg)no-repeat 0 -142px;}
+
+#about-us{height: 34.75em;}
+.blue-left
+{
+	height: 23.125em;
+	background: #00829c;
+}
+.blue-left img
+{float: right;width: 60.187em;height: 34.75em;}
+.blue-left h2
+{
+	font-size: 1.875em;
+	color: #fff;
+	width: 16.7em;
+	padding: 1.4em 0 0.667em;
+}
+.blue-left p
+{
+	color: #fff;
+	line-height: 1.25em;
+	width: 32.5em;
+	padding-bottom:2.125em; 
+}
+.blue-left a
+{
+	display: block;
+	font-size: 1.0625em;
+	color: #fff;
+	width: 6.235em;
+	height: 1.47em;
+	line-height: 1.47em;
+	text-align: center;
+	border:0.0588em solid #fff;
+	border-radius:0.2em/0.2em;
+	-moz-border-radius: 0.2em/0.2em;
+	-webkit-border-radius: 0.2em/0.2em;
+}
+.no-name
+{
+	color: #333;
+	font-size: 1.375em;
+	padding: 6.55em 0 0 1.81em;
+}
+.the-biu
+{
+	background: url(images/biu.png)no-repeat;
+	color: #fff;
+	font-size: 1.25em;
+	width: 19.3em;
+	padding: 43px 30px 65px 32px;
+	position: absolute;
+	top: 78.9em;
+	left: 24.4em;
+	overflow: hidden;
+}
+#products
+{
+	height: 65em;
+	background: url(images/p-bg.png);
+
+}
+#products h2
+{
+	color: #00829c;
+	font-size: 1.5em;
+	padding-top: 2.75em;
+	text-align: center;
+}
+
+#products img
+{
+	width: 300px;
+	height: 200px;
+	float: left;
+	
+}
+.p-one
+{
+	height: 26.875em;
+	float: left;
+	padding-right:2.4423em;
+	padding-left: 2.1875em;
+}
+.small-tittle
+{
+	padding-bottom: 0.889em;
+color: #00829c;
+font-size: 1.125em;
+width: 16.667em;
+text-align: center;
+}
+.the-time
+{
+	font-size: 0.75em;
+	color: #959595;
+	width: 11.667em;
+	text-align: center;
+	padding-left: 7.33em;
+	padding-bottom: 0.667em;
+
+}
+.the-context
+{
+	font-size: 0.75em;
+	color: #898989;
+	width: 22.5em;
+	text-align: center;
+	padding-left: 2.5em;
+}
+.more
+{
+	text-align: center;
+}
+.more a
+{
+	display: inline-block;
+	font-size: 2.54em;
+	color: #fff;
+	background: #00829c;
+	width: 7.383em;
+	height: 1.526em;
+	line-height: 1.526em;
+	text-align: center;
+}
+#successful-cases
+{height: 44.2em;}
+#successful-cases h2
+{
+	display: block;
+	background: url(images/p-bg.png);
+	color: #00829c;
+	font-size: 1.5em;
+	height: 3.417em;
+	line-height: 3.417em;
+	padding-top: 1.417em;
+	text-align: center;
+}
+.main
+{
+
+	background: url(change/s-bg.png)no-repeat;
+	width: 100%;
+	height: 37.187em;
+	position: absolute;
+}
+.main-text
+{
+	width: 63em;
+	height: 13.875em;
+	background-color: rgba(255,255,255,0.73);
+	border-radius:0.7em/0.7em;
+	-moz-border-radius: 0.7em/0.7em;
+	-webkit-border-radius: 0.7em/0.7em;
+	margin:0 auto;
+	position: relative;
+	top:12em;
+
+}
+.main-text h4
+{color: #00829c;	font-size: 1.375em;padding:62px 0 24px 48px}
+.main-text p
+{color:#333;padding-left:48px;width: 57.875em;}
+.main .more
+{
+	position: absolute;
+	top: 0;
+}
+.main .more
+{
+	position: absolute;
+	top: 28.75em;
+	left: 50.625em;
+}
+#research
+{
+	height: 42.375em;
+	z-index: 20;
+}
+#research h2
+{font-size: 1.5em;
+	padding: 3.67em 0 1.417em 0;
+color: #00829c;
+text-align: center;}
+#research img
+{width: 519px;
+height: 242px;
+padding-right: 15px;
+}
+.water-park
+{float: left;}
+.water-park h3
+{font-size: 1.5em;
+color: #00829c;
+padding: 0.5em 0 0.5em 0}
+.water-park p
+{color: #ccc;
+width:31.875em; }
+.water-park .more
+{font-size: 0.419em;
+position: absolute;
+top: 4109px;
+left:780px;}
+.gp li
+{
+float: left;
+width: 500px;
+height: 130px;
+padding-left: 98px;
+padding-bottom: 14px;}
+.logo-1 h4,.logo-2 h4,.logo-3 h4
+{color: #00829c;
+font-size: 24px;
+padding-left: 15px;
+line-height: 52px;
+width: 450px;
+height: 52px;}
+.logo-1 p,.logo-2 p,.logo-3 p
+{
+	font-size: 14px;
+	color: #333;
+	padding-left: 15px;
+	width: 480px;
+	height: 62px;
+	line-height: 22px;
+}
+.logo-1
+{background: url(images/logo-1.png)no-repeat;}
+.logo-2
+{background: url(images/logo-2.png)no-repeat;}
+.logo-3
+{background: url(images/logo-3.png)no-repeat;}
+.tittle-2
+{
+width: 105px;
+height: 51px;
+position: absolute;
+position: relative;
+left: 425px;
+}
+
+#bottom
+{
+	height: 334px;
+	background: #020d0f;
+	width: 100%;
+}
+ span
+{height: 34px;}
+#bottom a
+{
+	display: block;
+	color: #fff;
+	font-size: 12px;
+	padding-bottom: 14px;
+	border-left: 1px solid #f8b551;
+	padding-left: 17px;
+}
+#bottom ul
+{float: left;padding-left: 50px;}
+#bottom ol a
+{border:none;
+float: left;}
+#bottom ol
+{padding-left: 446px;}
+#bottom p
+{display: inline-block;
+font-size: 14px;
+color: #fff;
+padding-left: 265px;}
